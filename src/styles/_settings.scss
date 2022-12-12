@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/SvBasicManual-nRPP.ttf);
+}
+@font-face {
+  font-family: "font-2";
+  src: url(../assets/fonts/Tifax-AJ7g.ttf);
+}
+
+$font-1: "font-1", sans-serif;
+$font-2: "font-2", sans-serif;
+
+$color-1: rgb(150, 150, 150);
+$color-2: #353535;
+$color-3: rgb(200, 200, 200);
+$black: #42464d;
+$white: rgb(238, 238, 238);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-1;
+}
+
+body {
+  background: $white;
+  color: black;
+}
+li {
+  list-style: none;
+}
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
