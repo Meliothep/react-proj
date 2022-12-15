@@ -27,7 +27,7 @@ const PokemonCard = (props : PokemonCardProps) => {
     return (
       <div>
         <div className={props.liked ? "card flex-row liked" : "card flex-row"}>
-          <img className="card-img-left" src={pokemon.sprites.front_default} alt="une image de pokemon"/>
+          <img className="card-img-left" src={pokemon.sprites.front_default} alt="pokemon"/>
           <div className="card-body">
             <h4 className="card-title h5 h4-sm">{pokemon.name}</h4>
             <p className="card-text">{species.flavor_text_entries[0].flavor_text}</p>
@@ -39,7 +39,7 @@ const PokemonCard = (props : PokemonCardProps) => {
     return (
       <div>
         <div className="card flex-row">
-          <img className="card-img-left" src={"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"} alt= "une image de pokeball"/>
+          <img className="card-img-left" src={"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"} alt= "pokeball"/>
           <div className="card-body">
             <h4 className="card-title h5 h4-sm">{"Loading ..."}</h4>
             <p className="card-text">{"undescriptible legend"}</p>
