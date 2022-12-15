@@ -34,7 +34,7 @@ const Pokedex = () : JSX.Element => {
         forceUpdate()
     }
     
-    if(items.length == 0){
+    if(items.length === 0){
         getPokemons()
     }
     
