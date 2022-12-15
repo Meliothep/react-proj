@@ -1,7 +1,7 @@
 import React, { Component, useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Pokemon } from './Pokemon';
-import { Species } from './Species';
+import { Pokemon } from '../../models/Pokemon';
+import { Species } from '../../models/Species';
 import PokemonService from '../../services/PokemonService';
 
 export type PokemonCardProps = {

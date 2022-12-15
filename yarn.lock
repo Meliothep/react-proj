@@ -7541,6 +7541,13 @@
     "react-fast-compare" "^3.0.1"
     "warning" "^4.0.2"
 
+"react-redux-typescript@^3.0.0-rc.3":
+  "integrity" "sha512-p6OjEYWin8nwyoODuYqVXKLEQ1b4jMStDu0sBKPwLr9TFIGL6mulU+fI3KZTbqLczkJSLh0QTR9vS6kw8l8XmA=="
+  "resolved" "https://registry.npmjs.org/react-redux-typescript/-/react-redux-typescript-3.0.0-rc.3.tgz"
+  "version" "3.0.0-rc.3"
+  dependencies:
+    "typesafe-actions" "1.0.0"
+
 "react-redux@^7.2.1 || ^8.0.2", "react-redux@^8.0.5":
   "integrity" "sha512-Q2f6fCKxPFpkXt1qNRZdEDLlScsDWyrgSj0mliK59qU6W5gvBiKkdMEG2lJzhd1rCctf0hb6EtePPLZ2e0m1uw=="
   "resolved" "https://registry.npmjs.org/react-redux/-/react-redux-8.0.5.tgz"
@@ -8762,6 +8769,11 @@
   "version" "3.1.5"
   dependencies:
     "is-typedarray" "^1.0.0"
+
+"typesafe-actions@1.0.0":
+  "integrity" "sha512-L7wXh1nm07KjmE3nej0NJNHx5/Bc6Q7fIazfnqHkP97WLieEDBxXDCeMT98KSrtwbCneO14xQXokEPuW9sNG5w=="
+  "resolved" "https://registry.npmjs.org/typesafe-actions/-/typesafe-actions-1.0.0.tgz"
+  "version" "1.0.0"
 
 "typescript@^3.2.1 || ^4", "typescript@^4.4.2", "typescript@>= 2.7", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
   "integrity" "sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ=="

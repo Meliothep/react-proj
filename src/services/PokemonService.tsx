@@ -1,5 +1,5 @@
-import { Pokemon } from "../components/pokemon/Pokemon";
-import { Species } from "../components/pokemon/Species";
+import { Pokemon } from "../models/Pokemon";
+import { Species } from "../models/Species";
 
 export default class PokemonService{
     public static async getPokemon(id: number) {
